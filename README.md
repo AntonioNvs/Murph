@@ -10,4 +10,8 @@ Dashboard de notícias, clima, ações e informações de desempenho do computao
 
 ## Interface
 
+Para a interface realizada, foi utilizado a biblioteca [EEL](https://pypi.org/project/Eel/), a qual realiza a integração entre o Python com as tecnologias Web, com a finalidade de construir uma aplicação Desktop. Diante disso, é visto a facilidade do desenvolvimento de aplicações que exigem designs mais complexos e com animações e integrações com outros meios (como o Chart.js, utilizado para os gráficos).
+
 ## Reconhecimento Facial
+
+## Funcionalidades
