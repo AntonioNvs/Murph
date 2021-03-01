@@ -23,3 +23,7 @@ O reconhecimento facial foi feito com a biblioteca OpenCV a partir da classifica
 A partir disso, o algoritmo identifica as diferentes pessoas da captura por um id, localizado no nome da imagem, e no treinamento classifica os indivíduos com base nesse identificador. E com base nele, é relacionado com o nome da pessoa que já está pré determinado.
 
 ## Funcionalidades
+
+As funcionalidades para o Dashboard foram quatro: informações do desempenho do hardware, notícias, clima e ações.
+
+* Hardware
