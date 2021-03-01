@@ -4,8 +4,9 @@ Dashboard de notícias, clima, ações e informações de desempenho do computao
 
 ![](https://i.ibb.co/t8Y3y13/gif-murph.gif)
 
-[Interface](#interface)
-[Reconhecimento Facial](#reconhecimento-facial)
+[Interface](#interface)<br>
+[Reconhecimento Facial](#reconhecimento-facial)<br>
+[Funcionalidades](#funcionalidades)<br>
 
 ## Interface
 
