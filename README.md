@@ -20,4 +20,6 @@ Para os gráficos, foi utilizado o [Chart.js](https://www.chartjs.org/), o qual 
 
 O reconhecimento facial foi feito com a biblioteca OpenCV a partir da classificação do tipo LBPH, que sua função é rotular os pixels de uma imagem ao limitar a vizinhança de cada pixel e considera o resultado como um número binário. Por meio disso, foi criado dois arquivos, o de [captura de fotos](/capture.py) e o de [treinamento](/training.py) do modelo.
 
+A partir disso, o algoritmo identifica as diferentes pessoas da captura por um id, localizado no nome da imagem, e no treinamento classifica os indivíduos com base nesse identificador. E com base nele, é relacionado com o nome da pessoa que já está pré determinado.
+
 ## Funcionalidades
