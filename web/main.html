@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  <script type="text/javascript" src="/eel.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="styles/global.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+</head>
+<body>
+  <header>
+    <img src="assets/settings.svg" alt="Configurações" class="settings">
+    <div class="info-weather">
+      <div class='info-temp' >
+        <img src="assets/cloud.svg" alt="Nuvem" class="cloud">
+        <h3 id="temp-weather">
+          24° C
+        </h3>
+      </div>
+      <p class="weather" id="description-weather">
+        Nublado
+      </p>
+    </div>
+  </header>
+
+  <div class="title">
+    <h1 class="letter-title" id="title-text">
+      Olá Antônio, como vai?
+    </h1>
+  </div>
+  
+  <div class="main">
+    <div class="graphs">
+      <div class="a-graph">
+        <canvas id="cpu-chart" width="60px" height="60px"></canvas>
+        <p class="information-graph">
+          CPU: <span id="cpu-text" class="data-graph">100%</span>
+        </p>
+      </div>
+
+      <div class="a-graph">
+        <canvas id="ram-chart" width="50px" height="50px"></canvas>
+        <p class="information-graph">
+          RAM: <span id="ram-text" class="data-graph">100%</span>
+        </p>
+      </div>
+
+      <div class="a-graph" >
+        <canvas id="disk-chart" width="60px" height="60px"></canvas>
+        <p class="information-graph">
+          DISK: <span id="disk-text" class="data-graph">100%</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="dashboard" id="dashboard">
+    </div>
+
+    <div class="actions" id="actions">
+    </div>
+  </div>
+  
+</body>
+</html>

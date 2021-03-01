@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  padding: 0;
+  margin: 0;
+  
+  --main-blue: #283593;
+  --secondary-blue: #5C6BC0;
+  --white: #FFF3E0;
+  --black: #212121;
+  --gray: #607D8B;
+  --red: #EB5757; 
+  --green: #27AE60;
+  --secondary-gray: #E8EAF6;
+}
+
+
+body {
+  background: linear-gradient(119.65deg, var(--main-blue) 0%, var(--secondary-blue) 99.25%);
+  width: 100vw;
+  height: 100vh;
+  /* width: 1052px;
+  height: 714px; */
+}

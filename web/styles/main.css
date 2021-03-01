@@ -1,0 +1,183 @@
+body {
+  transition: opacity 0.5s;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-weather {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+
+.info-temp {
+  display: flex;
+  align-items: center;
+}
+
+img.settings {
+  width: 48px;
+  height: 48px;
+  color: var(--white);
+  margin-left: 6px;
+}
+
+img.cloud {
+  width: 50px;
+  height: 33px;
+  color: var(--white);
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--white);
+  margin-left: 12px;
+}
+
+p.weather {
+  margin-top: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--white);
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.letter-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.main {
+  display: flex;
+}
+
+.graphs {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.information-graph {
+  margin-top: 4px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--white)
+}
+
+.data-graph {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--red);
+}
+
+.a-graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard {
+  width: 50%;
+
+  background-color: var(--secondary-gray);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.news {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.news:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.left {
+  margin-left: 6px;
+}
+
+.right {
+  margin-right: 6px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-new {
+  width: 190px;
+  height: 110px;
+
+  border-radius: 12px;
+}
+
+.title-new {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--black);
+  line-height: 24px;
+  max-width: 350px;
+}
+
+.description-new {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--gray);
+  line-height: 14px;
+  max-width: 350px;
+}
+
+.actions {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-action {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.value-action {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--red);
+}
+
