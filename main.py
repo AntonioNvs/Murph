@@ -18,11 +18,6 @@ class Recognition_and_Data:
                 'name': 'Maria Clara',
                 'number-timers': 0,
                 'sex': 'female'
-            },
-            3: {
-                'name': 'Igor Deus do Universo',
-                'number-timers': 0,
-                'sex': 'male'
             }
         }
         self.name = 0
